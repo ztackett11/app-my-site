@@ -1,0 +1,83 @@
+Arguments: 
+  /opt/local/bin/node /opt/local/libexec/yarn/bin/yarn.js install
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/local/bin:/opt/local/sbin:/Users/zach/.rvm/gems/ruby-2.2.1/bin:/Users/zach/.rvm/gems/ruby-2.2.1@global/bin:/Users/zach/.rvm/rubies/ruby-2.2.1/bin:/Users/zach/bin:/usr/local/php5/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/zach/.rvm/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  4.8.7
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+      "title": "Freelancer",
+      "name": "startbootstrap-freelancer",
+      "version": "4.0.0",
+      "description": "A freelancer portfolio HTML theme for Bootstrap.",
+      "keywords": [
+          "css",
+          "sass",
+          "html",
+          "responsive",
+          "theme",
+          "template"
+      ],
+      "homepage": "https://startbootstrap.com/template-overviews/freelancer",
+      "bugs": {
+          "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer/issues",
+          "email": "feedback@startbootstrap.com"
+      },
+      "license": "MIT",
+      "author": "Start Bootstrap",
+      "contributors": [
+          "David Miller (http://davidmiller.io/)"
+      ],
+      "repository": {
+          "type": "git",
+          "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+      },
+      "dependencies": {
+          "bootstrap": "4.0.0",
+          "devicons": "^1.8.0",
+          "font-awesome": "4.7.0",
+          "jquery": "3.3.1",
+          "jquery.easing": "^1.4.1",
+          "magnific-popup": "^1.1.0",
+          "simple-line-icons": "^2.4.1"
+      },
+      "devDependencies": {
+          "browser-sync": "2.23.6",
+          "gulp": "^3.9.1",
+          "gulp-clean-css": "3.9.2",
+          "gulp-filter": "5.1.0",
+          "gulp-header": "2.0.1",
+          "gulp-rename": "^1.2.2",
+          "gulp-sass": "^3.1.0",
+          "gulp-uglify": "3.0.0"
+  
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Found incompatible module
+      at MessageError.Error (native)
+      at new MessageError (/opt/local/libexec/yarn/lib/cli.js:186:110)
+      at checkOne (/opt/local/libexec/yarn/lib/cli.js:62444:11)
+      at Object.check (/opt/local/libexec/yarn/lib/cli.js:62463:5)
+      at /opt/local/libexec/yarn/lib/cli.js:22803:73
+      at next (native)
+      at step (/opt/local/libexec/yarn/lib/cli.js:98:30)
+      at /opt/local/libexec/yarn/lib/cli.js:109:13
+      at run (/opt/local/libexec/yarn/lib/cli.js:100334:22)
+      at /opt/local/libexec/yarn/lib/cli.js:100347:28
