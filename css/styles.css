@@ -385,11 +385,7 @@ a:focus, a:hover, a:active {
   top: -100px;
   left: 0px;
   width: 100%;
-<<<<<<< HEAD
   height: 950px;
-=======
-  height: 900px;
->>>>>>> 81fafdffead33cc505a04f6a0cb8d40d329fd6fb
   position: absolute;
   z-index: -1;
 
@@ -445,8 +441,5 @@ header {
 
 a {
   color: navy;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 81fafdffead33cc505a04f6a0cb8d40d329fd6fb
+
